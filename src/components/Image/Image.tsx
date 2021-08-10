@@ -2,6 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import useStyles from './useStyles';
+import { ImageProps } from '../../interfaces/Props';
 
 const Image = ({
     src,

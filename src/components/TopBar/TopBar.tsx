@@ -16,6 +16,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import useStyles from './useStyles';
 import Image from '../Image/Image';
 import DarkModeToggler from '../DarkModeToggler/DarkModeToggler';
+import { PagesProps, MenuGroupProps } from '../../interfaces/Props'
 
 interface Props {
     className?: string;

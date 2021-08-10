@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import useStyles from './useStyles';
+import { DarkModeTogglerProps } from '../../interfaces/Props'
 
 const DarkModeToggler = ({ themeMode = 'light', onClick, className, ...rest }: DarkModeTogglerProps): JSX.Element => {
     const classes = useStyles();

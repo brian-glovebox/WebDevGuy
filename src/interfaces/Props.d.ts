@@ -1,3 +1,5 @@
+import { Theme, ThemeOptions } from "@material-ui/core/styles/createMuiTheme";
+
 interface MenuItemProps {
     groupTitle: string;
     pages: Array<{ href: string; title: string }>;
@@ -61,3 +63,17 @@ interface PagesProps {
     // All other props
     [x:string]: any;
   };
+
+  
+    interface Theme {
+      layout: {
+        contentWidth: number | string;
+      };
+    }
+    // allow configuration using `createMuiTheme`
+    interface ThemeOptions {
+      layout?: {
+        contentWidth: number | string;
+      };
+    };
+  

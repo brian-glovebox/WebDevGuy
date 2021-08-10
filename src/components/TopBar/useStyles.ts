@@ -11,7 +11,7 @@ const useStyles = makeStyles(theme => ({
     },
     toolbar: {
         zIndex: 999,
-        maxWidth: theme.layout.contentWidth,
+        maxWidth: 1236,
         width: '100%',
         margin: '0 auto',
         padding: theme.spacing(0, 2),
