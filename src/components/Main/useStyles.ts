@@ -8,9 +8,9 @@ const useStyles = makeStyles(theme => ({
     },
     sectionAlternate: {
       background: 'transparent',
-      backgroundImage: `linear-gradient(180deg, ${theme.palette.alternate.main} 100%, ${theme.palette.background.paper} 0%)`,
+      backgroundImage: `linear-gradient(180deg, #2D3748 100%, ${theme.palette.background.paper} 0%)`,
       [theme.breakpoints.up('md')]: {
-        backgroundImage: `linear-gradient(180deg, ${theme.palette.alternate.main} 50%, ${theme.palette.background.paper} 0%)`,
+        backgroundImage: `linear-gradient(180deg, #2D3748 50%, ${theme.palette.background.paper} 0%)`,
       },
     },
     reviewSection: {

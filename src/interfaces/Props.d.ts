@@ -77,3 +77,53 @@ interface PagesProps {
       };
     };
   
+
+    interface SectionHeaderProps {
+      className?: string;
+      title: string | JSX.Element;
+      subtitle?: string | JSX.Element;
+      label?: string;
+      overline?: JSX.Element;
+      ctaGroup?: Array<JSX.Element>;
+      fadeUp?: boolean;
+      align?: 'right' | 'left' | 'center';
+      disableGutter?: boolean;
+      titleClasses?: string;
+      titleVariant?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
+      subtitleVariant?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'subtitle1' | 'subtitle2' | 'body1' | 'body2';
+      subtitleColor?: 'textPrimary' | 'textSecondary' | 'primary' | 'secondary';
+      labelProps?: object;
+      titleProps?: object;
+      subtitleProps?: object;
+      // All other props
+      [x:string]: any;
+    }
+
+    interface SectionProps {
+      className?: string;
+      children?: JSX.Element;
+      narrow?: boolean;
+      fullWidth?: boolean;
+      disablePadding?: boolean;
+      // All other props
+      [x:string]: any;
+    }
+
+    interface HeroBackgroundProps {
+      className?: string;
+      children: JSX.Element;
+      backgroundImage: string;
+      backgroundSize?: string | number;
+      backgroundPosition?: string | number;
+      // All other props
+      [x:string]: any;
+    }
+
+
+    interface ViewComponentProps {
+      className?: string;
+      data?: any;
+      themeMode?: string;
+      // All other props
+      [x:string]: any;
+    }
