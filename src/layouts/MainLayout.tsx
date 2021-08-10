@@ -18,7 +18,7 @@ interface Props {
     themeMode: string;
 };
 
-const Main = ({ children, themeToggler, themeMode }: Props): JSX.Element => {
+const MainLayout = ({ children, themeToggler, themeMode }: Props): JSX.Element => {
     const classes = useStyles();
 
     const theme = useTheme();
@@ -351,4 +351,4 @@ const Main = ({ children, themeToggler, themeMode }: Props): JSX.Element => {
     );
 };
 
-export default Main;
+export default MainLayout;

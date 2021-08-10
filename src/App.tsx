@@ -1,4 +1,5 @@
 import Main from './components/Main/Main';
+import MainLayout from './layouts/MainLayout'
 import { Router, Switch, Route, Redirect } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import { ThemeProvider } from '@material-ui/core/styles';
@@ -21,7 +22,7 @@ const App = (): JSX.Element => {
             <Layout
               {...props}
               component={Main}
-              layout={Main}
+              layout={MainLayout}
             />
           )}
           />
