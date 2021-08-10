@@ -1,25 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Main from './components/Main/Main';
+import { Router, Switch, Route, Redirect } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
+import { ThemeProvider } from '@material-ui/core/styles';
+import 'react-lazy-load-image-component/src/effects/opacity.css';
+import 'leaflet/dist/leaflet.css';
+import 'assets/css/index.css';
+import 'swiper/css/swiper.min.css';
+import 'aos/dist/aos.css';
+import { render } from 'react-dom';
+import Layout from './components/Layout/Layout';
+const browserHistory = createBrowserHistory();
 
-function App() {
+
+const App = (): JSX.Element => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router history={browserHistory}>
+        <Switch>
+          <Route exact path='/' render={props => (
+            <Layout
+              {...props}
+              component={Main}
+              layout={Main}
+            />
+          )}
+          />
+    </Switch>
+
+      </Router>
+    </>
   );
 }
 
