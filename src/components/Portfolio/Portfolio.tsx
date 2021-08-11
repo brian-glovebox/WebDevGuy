@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import { Typography, Button } from '@material-ui/core';
 import Image from '../Image/Image';
 import { ViewComponentProps } from '../../interfaces/Props';
+import SectionHeader from '../SectionHeader/SectionHeader';
 import useStyles from './useStyles'
 
 const Portfolio = ({ data, className, ...rest }: ViewComponentProps): JSX.Element => {
@@ -13,6 +14,18 @@ const Portfolio = ({ data, className, ...rest }: ViewComponentProps): JSX.Elemen
 
     return (
         <div className={clsx(classes.root, className)} {...rest}>
+            <SectionHeader
+                        title={
+                            <span>
+                                Check out some of my work{' '}<br/>
+                            </span>
+                        }
+                        titleVariant="h4"
+                        subtitle=""
+                        ctaGroup={[
+                        ]}
+                        disableGutter
+                    />
             <div className={classes.grid}>
                 <div className={classes.leftGrid}>
                     {leftGridData.map((item: any, index: number) => (

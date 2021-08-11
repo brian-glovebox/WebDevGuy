@@ -6,7 +6,10 @@ import Hero from '../Hero/Hero';
 import TechUsed from '../TechUsed/TechUsed';
 import Portfolio from '../Portfolio/Portfolio'
 import TattooArtPic from '../../Images/tattooArt.jpg';
-import MakeOrMiss from '../../Images/MakeOrMiss.jpg'
+import MakeOrMiss from '../../Images/MakeOrMiss.jpg';
+import StudentProfiles from '../../Images/studentProfiles.jpg';
+import ReactWeather from '../../Images/reactweather.jpg';
+import WebDevelopment from '../WebDevelopment/WebDevelopment'
 
 const portfolioData = [
     {
@@ -20,14 +23,14 @@ const portfolioData = [
         subtitle: 'React/D3 Visualization',
     },
     {
-        cover: 'https://assets.maccarianagency.com/the-front/photos/blog/cover4.jpg',
+        cover: StudentProfiles,
         title: 'HATCHWAYS FRONT END',
         subtitle: 'React Front End Assessment',
     },
     {
-        cover: 'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg',
-        title: 'NIKE',
-        subtitle: 'Just do it',
+        cover: ReactWeather,
+        title: 'REACT WEATHER DASHBOARD',
+        subtitle: 'Using OpenWeatherMap',
     },
 ];
 
@@ -40,10 +43,14 @@ const Main = (): JSX.Element => {
             <Hero data-aos="fade-up" className={classes.hero} />
             <Divider />
             <TechUsed />
+            <Section>
+                <WebDevelopment />
+            </Section>
             <Divider />
             <Section>
                 <Portfolio data={portfolioData} />
             </Section>
+            <Divider />
         </>
     );
 };
