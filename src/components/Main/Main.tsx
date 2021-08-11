@@ -11,7 +11,8 @@ const Main = (): JSX.Element => {
     return (
         <>
             <Hero data-aos="fade-up" className={classes.hero} />
-
+            <Divider />
+            
         </>
     );
 };

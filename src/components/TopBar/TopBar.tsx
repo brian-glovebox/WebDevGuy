@@ -17,6 +17,8 @@ import useStyles from './useStyles';
 import Image from '../Image/Image';
 import DarkModeToggler from '../DarkModeToggler/DarkModeToggler';
 import { PagesProps, MenuGroupProps } from '../../interfaces/Props'
+import LightLogo from '../../Images/lightMode.png';
+import DarkLogo from '../../Images/darkMode.png';
 
 interface Props {
     className?: string;
@@ -154,8 +156,8 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
                 <a href="/" title="thefront">
                     <Image
                         className={classes.logoImage}
-                        src={themeMode === 'light' ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg' : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'}
-                        alt="thefront"
+                        src={themeMode === 'light' ? LightLogo  : DarkLogo }
+                        alt="Brian Ford"
                         lazy={false}
                     />
                 </a>
