@@ -9,7 +9,8 @@ import TattooArtPic from '../../Images/tattooArt.jpg';
 import MakeOrMiss from '../../Images/MakeOrMiss.jpg';
 import StudentProfiles from '../../Images/studentProfiles.jpg';
 import ReactWeather from '../../Images/reactweather.jpg';
-import WebDevelopment from '../WebDevelopment/WebDevelopment'
+import WebDevelopment from '../WebDevelopment/WebDevelopment';
+import ContactPage from '../ContactPage/ContactPage'
 
 const portfolioData = [
     {
@@ -51,6 +52,9 @@ const Main = (): JSX.Element => {
                 <Portfolio data={portfolioData} />
             </Section>
             <Divider />
+           
+                <ContactPage />
+            
         </>
     );
 };
