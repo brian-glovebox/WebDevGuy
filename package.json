@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://bf2344.github.io/WebDevGuy",
+  "homepage": "https://adoring-heisenberg-6a29e6.netlify.app/",
   "dependencies": {
     "@material-ui/core": "^4.2.1",
     "@material-ui/icons": "^4.2.1",
