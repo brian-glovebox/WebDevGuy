@@ -21,11 +21,11 @@ const Hero = ({ className, executeScroll, ...rest }: ViewComponentProps): JSX.El
                         titleVariant="h3"
                         subtitle=""
                         ctaGroup={[
-                            <Button color="primary" variant="contained" size="large">
+                            <Button onClick={executeScroll} color="primary" variant="contained" size="large">
                                 See My Work
                             </Button>,
                             <Button color="secondary" variant="outlined" size="large">
-                                Contact Me
+                                My Resume
                             </Button>,
                         ]}
                         disableGutter

@@ -8,7 +8,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import useStyles from './useStyles'
 import Image from '../Image/Image';
 import { PagesProps } from '../../interfaces/Props'
-import DarkModeLogo from '../../Images/darkMode.png'
+import DarkModeLogo from '../../Images/technologyblue.svg'
 
 interface Props {
     className?: string;

@@ -25,8 +25,8 @@ const useStyles = makeStyles(theme => ({
       height: 32,
     },
     logoImage: {
-      width: '10rem',
-      height: '12rem',
+      width: '100%',
+      height: '100%',
     },
     groupTitle: {
       textTransform: 'uppercase',
