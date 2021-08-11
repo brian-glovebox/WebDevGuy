@@ -26,7 +26,7 @@ const useStyles = makeStyles(theme => ({
     },
     logoImage: {
       width: '100%',
-      height: '100%',
+      height: '100',
     },
     groupTitle: {
       textTransform: 'uppercase',
@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
     },
     socialIcon: {
       padding: 0,
-      marginRight: theme.spacing(1),
+      marginRight: theme.spacing(30),
       color: 'rgba(255,255,255,.6)',
       '&:hover': {
         background: 'transparent',
@@ -45,7 +45,7 @@ const useStyles = makeStyles(theme => ({
       },
     },
     icon: {
-      fontSize: 24,
+      fontSize: 74,
     },
     menuListContainer: {
       padding: '0 !important',
@@ -76,6 +76,9 @@ const useStyles = makeStyles(theme => ({
     navLink: {
       color: 'rgba(255,255,255,.6)',
     },
+    a: {
+      color: 'inherit'
+    }
   }));
 
   export default useStyles;
