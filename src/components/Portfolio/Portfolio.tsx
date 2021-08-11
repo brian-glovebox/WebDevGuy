@@ -21,11 +21,10 @@ const Portfolio = ({ data, className, ...rest }: ViewComponentProps): JSX.Elemen
                             </span>
                         }
                         titleVariant="h4"
-                        subtitle=""
-                        ctaGroup={[
-                        ]}
+                        subtitle="Here is some of my latest projects"
                         disableGutter
                     />
+                    <br/>
             <div className={classes.grid}>
                 <div className={classes.leftGrid}>
                     {leftGridData.map((item: any, index: number) => (
