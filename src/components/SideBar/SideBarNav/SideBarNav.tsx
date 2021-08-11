@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
-import { List, ListItem, Typography, Button } from '@material-ui/core';
-import { PagesProps, MenuGroupProps } from '../../../interfaces/Props'
+import { List, ListItem, Button } from '@material-ui/core';
+import { PagesProps } from '../../../interfaces/Props'
 import useStyles from './useStyles'
 
 interface Props {
