@@ -1,20 +1,12 @@
 import React from 'react';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import {  useTheme } from '@material-ui/core/styles';
 import { useMediaQuery, Grid } from '@material-ui/core';
 import Image from '../Image/Image';
 import SectionHeader from '../SectionHeader/SectionHeader';
 import { ViewComponentProps } from '../../interfaces/Props';
 import WebImage from '../../Images/progressive-app.svg';
 
-const useStyles = makeStyles(() => ({
-    logo: {
-        maxWidth: 50,
-    },
-}));
-
 const WebDevelopment = ({ data, className, ...rest }: ViewComponentProps): JSX.Element => {
-    const classes = useStyles();
-
     const theme = useTheme();
     const isMd = useMediaQuery(theme.breakpoints.up('md'), {
         defaultMatches: true,

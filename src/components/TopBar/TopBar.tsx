@@ -1,22 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import clsx from 'clsx';
 import {
     Toolbar,
     Hidden,
     List,
     ListItem,
-    ListItemIcon,
-    Popover,
-    Typography,
     IconButton,
-    Button,
 } from '@material-ui/core';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MenuIcon from '@material-ui/icons/Menu';
 import useStyles from './useStyles';
 import Image from '../Image/Image';
 import DarkModeToggler from '../DarkModeToggler/DarkModeToggler';
-import { PagesProps, MenuGroupProps } from '../../interfaces/Props'
+import { PagesProps } from '../../interfaces/Props'
 import LightLogo from '../../Images/lightMode.png';
 import DarkLogo from '../../Images/darkMode.png';
 

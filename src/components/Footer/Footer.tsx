@@ -1,13 +1,13 @@
 import React from 'react';
 import clsx from 'clsx';
-import { Typography, IconButton, Grid, List, ListItem } from '@material-ui/core';
+import { IconButton, Grid, List, ListItem } from '@material-ui/core';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import PinterestIcon from '@material-ui/icons/Pinterest';
 import useStyles from './useStyles'
 import Image from '../Image/Image';
-import { PagesProps, MenuGroupProps } from '../../interfaces/Props'
+import { PagesProps } from '../../interfaces/Props'
 
 interface Props {
     className?: string;
