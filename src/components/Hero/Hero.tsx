@@ -4,10 +4,11 @@ import SectionHeader from '../SectionHeader/SectionHeader';
 import Section from '../Section/Section';
 import HeroBackground from '../HeroBackground/HeroBackground';
 import { ViewComponentProps } from '../../interfaces/Props';
+import HeroBG from '../../Images/heroBG.svg';
 
 const Hero = ({ className, ...rest }: ViewComponentProps): JSX.Element => (
     <div className={className} {...rest}>
-        <HeroBackground backgroundImage="https://assets.maccarianagency.com/the-front/shapes/banner-bg.svg">
+        <HeroBackground backgroundImage={HeroBG}>
             <Section narrow>
                 <>
                     <SectionHeader
@@ -18,13 +19,13 @@ const Hero = ({ className, ...rest }: ViewComponentProps): JSX.Element => (
                             </span>
                         }
                         titleVariant="h3"
-                        subtitle="Our mission is to help you to grow your design skills, meet and connect with professional dsigners who share your passions. We help you fulfill your best potential through an engaging lifestyle experience."
+                        subtitle=""
                         ctaGroup={[
                             <Button color="primary" variant="contained" size="large">
-                                Try for free
+                                See My Work
                             </Button>,
                             <Button color="secondary" variant="outlined" size="large">
-                                See pricings
+                                Contact Me
                             </Button>,
                         ]}
                         disableGutter
@@ -35,7 +36,7 @@ const Hero = ({ className, ...rest }: ViewComponentProps): JSX.Element => (
                         component="p"
                         color="primary"
                     >
-                        Fully featured 30-day free trial
+                        Open For Work
                     </Typography>
                 </>
             </Section>
