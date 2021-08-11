@@ -52,9 +52,7 @@ const Main = (): JSX.Element => {
                 <Portfolio data={portfolioData} />
             </Section>
             <Divider />
-           
-                <ContactPage />
-            
+            <ContactPage />
         </>
     );
 };
