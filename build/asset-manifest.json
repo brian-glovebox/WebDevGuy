@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/WebDevGuy/static/css/main.3c3afdc8.chunk.css",
+    "main.js": "/WebDevGuy/static/js/main.e5b61693.chunk.js",
+    "main.js.map": "/WebDevGuy/static/js/main.e5b61693.chunk.js.map",
+    "runtime-main.js": "/WebDevGuy/static/js/runtime-main.07120e62.js",
+    "runtime-main.js.map": "/WebDevGuy/static/js/runtime-main.07120e62.js.map",
+    "static/css/2.fd3401af.chunk.css": "/WebDevGuy/static/css/2.fd3401af.chunk.css",
+    "static/js/2.5698ce40.chunk.js": "/WebDevGuy/static/js/2.5698ce40.chunk.js",
+    "static/js/2.5698ce40.chunk.js.map": "/WebDevGuy/static/js/2.5698ce40.chunk.js.map",
+    "static/js/3.20fcc5a6.chunk.js": "/WebDevGuy/static/js/3.20fcc5a6.chunk.js",
+    "static/js/3.20fcc5a6.chunk.js.map": "/WebDevGuy/static/js/3.20fcc5a6.chunk.js.map",
+    "index.html": "/WebDevGuy/index.html",
+    "static/css/2.fd3401af.chunk.css.map": "/WebDevGuy/static/css/2.fd3401af.chunk.css.map",
+    "static/css/main.3c3afdc8.chunk.css.map": "/WebDevGuy/static/css/main.3c3afdc8.chunk.css.map",
+    "static/js/2.5698ce40.chunk.js.LICENSE.txt": "/WebDevGuy/static/js/2.5698ce40.chunk.js.LICENSE.txt",
+    "static/media/MakeOrMiss.bf5e6265.jpg": "/WebDevGuy/static/media/MakeOrMiss.bf5e6265.jpg",
+    "static/media/Node.js_logo.dd47e26e.svg": "/WebDevGuy/static/media/Node.js_logo.dd47e26e.svg",
+    "static/media/React-icon.3adc4d15.svg": "/WebDevGuy/static/media/React-icon.3adc4d15.svg",
+    "static/media/Typescript_logo_2020.e0cf5672.svg": "/WebDevGuy/static/media/Typescript_logo_2020.e0cf5672.svg",
+    "static/media/contactPic.40c276bb.jpg": "/WebDevGuy/static/media/contactPic.40c276bb.jpg",
+    "static/media/d3js-icon.3693afdf.svg": "/WebDevGuy/static/media/d3js-icon.3693afdf.svg",
+    "static/media/heroBG.182ab521.svg": "/WebDevGuy/static/media/heroBG.182ab521.svg",
+    "static/media/material-ui.da7fba49.svg": "/WebDevGuy/static/media/material-ui.da7fba49.svg",
+    "static/media/mongodb-ar21.b508609b.svg": "/WebDevGuy/static/media/mongodb-ar21.b508609b.svg",
+    "static/media/progressive-app.9e056f72.svg": "/WebDevGuy/static/media/progressive-app.9e056f72.svg",
+    "static/media/reactweather.8cfa0a53.jpg": "/WebDevGuy/static/media/reactweather.8cfa0a53.jpg",
+    "static/media/studentProfiles.13c02d7d.jpg": "/WebDevGuy/static/media/studentProfiles.13c02d7d.jpg",
+    "static/media/tattooArt.ac9b058b.jpg": "/WebDevGuy/static/media/tattooArt.ac9b058b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07120e62.js",
+    "static/css/2.fd3401af.chunk.css",
+    "static/js/2.5698ce40.chunk.js",
+    "static/css/main.3c3afdc8.chunk.css",
+    "static/js/main.e5b61693.chunk.js"
+  ]
+}
