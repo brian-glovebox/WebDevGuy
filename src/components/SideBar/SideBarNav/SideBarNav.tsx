@@ -22,7 +22,7 @@ const SidebarNav = ({ pages, onClose, className, ...rest }: Props): JSX.Element 
                     fullWidth
                     component="a"
                     target="blank"
-                    href="https://material-ui.com/store/items/the-front-landing-page/"
+                    href="https://www.linkedin.com/in/bf2344"
                 >
                     HIRE ME
                 </Button>
