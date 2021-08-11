@@ -21,8 +21,8 @@ const Hero = ({ className, executeScroll, ...rest }: ViewComponentProps): JSX.El
                         titleVariant="h3"
                         subtitle=""
                         ctaGroup={[
-                            <Button onClick={executeScroll} color="primary" variant="contained" size="large">
-                                See My Work
+                            <Button href='https://www.github.com/bf2344' color="primary" variant="contained" size="large">
+                                See My Work 
                             </Button>,
                             <Button color="secondary" variant="outlined" size="large">
                                 My Resume
@@ -36,7 +36,7 @@ const Hero = ({ className, executeScroll, ...rest }: ViewComponentProps): JSX.El
                         component="p"
                         color="primary"
                     >
-                        Contact Me For Collaboration
+                        Contact Me For Collaboration - bf@bford.dev
                     </Typography>
                 </>
             </Section>

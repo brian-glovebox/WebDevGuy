@@ -5,6 +5,8 @@ import { useMediaQuery, Divider } from '@material-ui/core';
 import TopBar from '../components/TopBar/TopBar';
 import Footer from '../components/Footer/Footer';
 import SideBar from '../components/SideBar/SideBar';
+import Hidden from '@material-ui/core/Hidden';
+
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -346,7 +348,9 @@ const MainLayout = ({ children, themeToggler, themeMode }: Props): JSX.Element =
                 <Divider />
                 {children}
             </main>
+            <Hidden smDown={true}>
             <Footer pages={pages} />
+            </Hidden>
         </div>
     );
 };

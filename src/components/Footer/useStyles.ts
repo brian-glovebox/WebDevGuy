@@ -43,13 +43,9 @@ const useStyles = makeStyles(theme => ({
       '&:last-child': {
         marginRight: 0,
       },
-      [theme.breakpoints.down('sm')]: {
-        marginRight: theme.spacing(2),
-        marginLeft: theme.spacing(2),
-      },
       [theme.breakpoints.down('md')]: {
-        marginRight: theme.spacing(10),
-        marginLeft: theme.spacing(10),
+        marginRight: theme.spacing(6),
+        marginLeft: theme.spacing(6),
       },
     },
     icon: {

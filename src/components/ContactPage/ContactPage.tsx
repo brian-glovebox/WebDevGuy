@@ -142,7 +142,7 @@ const ContactPage = (): JSX.Element => {
                                         Message
                                     </Typography>
                                     <TextField
-                                        placeholder="Your question about our services"
+                                        placeholder="What would you like to chat about?"
                                         variant="outlined"
                                         name="message"
                                         fullWidth
