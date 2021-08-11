@@ -1,5 +1,5 @@
 import React from 'react';
-import {  useTheme } from '@material-ui/core/styles';
+import { useTheme } from '@material-ui/core/styles';
 import { useMediaQuery, Grid } from '@material-ui/core';
 import Image from '../Image/Image';
 import SectionHeader from '../SectionHeader/SectionHeader';

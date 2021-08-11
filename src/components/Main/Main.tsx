@@ -8,7 +8,7 @@ import Portfolio from '../Portfolio/Portfolio'
 import TattooArtPic from '../../Images/tattooArt.jpg';
 import MakeOrMiss from '../../Images/MakeOrMiss.jpg';
 import StudentProfiles from '../../Images/studentProfiles.jpg';
-import ReactWeather from '../../Images/reactweather.jpg';
+import Choose from '../../Images/chooseyourown.jpg';
 import WebDevelopment from '../WebDevelopment/WebDevelopment';
 import ContactPage from '../ContactPage/ContactPage'
 
@@ -17,21 +17,25 @@ const portfolioData = [
         cover: TattooArtPic,
         title: 'TATTOO ART',
         subtitle: 'Tattoo Contest Website',
+        href: "https://github.com/hatchways/team-honey-cruller"
     },
     {
         cover: MakeOrMiss,
         title: 'MAKE OR MISS',
         subtitle: 'React/D3 Visualization',
+        href: "https://salty-coast-38970.herokuapp.com/"
     },
     {
         cover: StudentProfiles,
         title: 'HATCHWAYS FRONT END',
         subtitle: 'React Front End Assessment',
+        href: "https://bf2344.github.io/StudentProfilesHatchways/"
     },
     {
-        cover: ReactWeather,
-        title: 'REACT WEATHER DASHBOARD',
-        subtitle: 'Using OpenWeatherMap',
+        cover: Choose,
+        title: 'REACT CHOOSE YOUR OWN ADVENTURE',
+        subtitle: 'React App',
+        href: 'https://peaceful-escarpment-83290.herokuapp.com/'
     },
 ];
 

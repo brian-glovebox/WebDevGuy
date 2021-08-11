@@ -47,7 +47,7 @@ const Portfolio = ({ data, className, ...rest }: ViewComponentProps): JSX.Elemen
                                     >
                                         {item.subtitle}
                                     </Typography>
-                                    <Button variant="outlined" color="secondary">
+                                    <Button href={item.href} variant="outlined" color="secondary">
                                         View more
                                     </Button>
                                 </div>
@@ -75,7 +75,7 @@ const Portfolio = ({ data, className, ...rest }: ViewComponentProps): JSX.Elemen
                                     >
                                         {item.subtitle}
                                     </Typography>
-                                    <Button variant="outlined" color="secondary">
+                                    <Button href={item.href} variant="outlined" color="secondary">
                                         View more
                                     </Button>
                                 </div>

@@ -1,13 +1,14 @@
 import React from 'react';
 import clsx from 'clsx';
 import { IconButton, Grid, List, ListItem } from '@material-ui/core';
-import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import PinterestIcon from '@material-ui/icons/Pinterest';
+import GitHubIcon from '@material-ui/icons/GitHub';
 import useStyles from './useStyles'
 import Image from '../Image/Image';
 import { PagesProps } from '../../interfaces/Props'
+import DarkModeLogo from '../../Images/darkMode.png'
 
 interface Props {
     className?: string;
@@ -28,8 +29,8 @@ const Footer = ({ pages, className, ...rest }: Props): JSX.Element => {
                                     <a href="/" title="thefront">
                                         <Image
                                             className={classes.logoImage}
-                                            src="https://assets.maccarianagency.com/the-front/logos/logo-negative.svg"
-                                            alt="thefront"
+                                            src={DarkModeLogo}
+                                            alt="bf2344"
                                             lazy={false}
                                         />
                                     </a>
@@ -37,7 +38,7 @@ const Footer = ({ pages, className, ...rest }: Props): JSX.Element => {
                             </ListItem>
                             <ListItem disableGutters>
                                 <IconButton className={classes.socialIcon}>
-                                    <FacebookIcon className={classes.icon} />
+                                    <GitHubIcon className={classes.icon} />
                                 </IconButton>
                                 <IconButton className={classes.socialIcon}>
                                     <InstagramIcon className={classes.icon} />
