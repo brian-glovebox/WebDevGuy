@@ -95,6 +95,10 @@ const useStyles = makeStyles(theme => ({
     menuGroupTitle: {
         textTransform: 'uppercase',
     },
+    Typography: {
+        color: '#F9B934',
+        fontWeight: 700
+    }
 }));
 
 export default useStyles;

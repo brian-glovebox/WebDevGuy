@@ -5,7 +5,8 @@ import {
     Hidden,
     List,
     ListItem,
-    IconButton
+    IconButton,
+    Typography
 } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import useStyles from './useStyles';
@@ -28,6 +29,7 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
 
     return (
         <Toolbar disableGutters className={classes.toolbar} {...rest}>
+                    <Typography className={classes.Typography} align='right' variant='h6'>Brian Ford</Typography>
             <div className={classes.logoContainer}>
                 <a href="/" title="Brian Ford">
                     <Image
