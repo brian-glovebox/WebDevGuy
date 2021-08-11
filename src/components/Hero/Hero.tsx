@@ -6,7 +6,7 @@ import HeroBackground from '../HeroBackground/HeroBackground';
 import { ViewComponentProps } from '../../interfaces/Props';
 import HeroBG from '../../Images/heroBG.svg';
 
-const Hero = ({ className, ...rest }: ViewComponentProps): JSX.Element => (
+const Hero = ({ className, executeScroll, ...rest }: ViewComponentProps): JSX.Element => (
     <div className={className} {...rest}>
         <HeroBackground backgroundImage={HeroBG}>
             <Section narrow>

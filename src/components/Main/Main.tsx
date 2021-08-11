@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import useStyles from './useStyles'
 import { Divider } from '@material-ui/core';
 import Section from '../Section/Section';
@@ -35,20 +35,24 @@ const portfolioData = [
     },
 ];
 
+const scrollToRef = (ref: any) => window.scrollTo(0, ref.current.offsetTop);
+
 
 const Main = (): JSX.Element => {
     const classes = useStyles();
+    const myRef = useRef(null);
+    const executeScroll = () => scrollToRef(myRef);
 
     return (
         <>
-            <Hero data-aos="fade-up" className={classes.hero} />
+            <Hero executeScroll={executeScroll} data-aos="fade-up" className={classes.hero} />
             <Divider />
             <TechUsed />
             <Section>
                 <WebDevelopment />
             </Section>
             <Divider />
-            <Section>
+            <Section ref={myRef}>
                 <Portfolio data={portfolioData} />
             </Section>
             <Divider />

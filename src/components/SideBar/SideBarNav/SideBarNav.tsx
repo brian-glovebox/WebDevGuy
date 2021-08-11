@@ -105,55 +105,16 @@ const SidebarNav = ({ pages, onClose, className, ...rest }: Props): JSX.Element 
 
     return (
         <List {...rest} className={clsx(classes.root, className)}>
-            <ListItem className={classes.closeIcon} onClick={() => onClose()}>
-                <ListItemIcon className={classes.listItemIcon}>
-                    <CloseIcon fontSize="small" />
-                </ListItemIcon>
-            </ListItem>
-            <ListItem className={classes.listItem}>
-                <Typography variant="h6" color="textPrimary" gutterBottom>
-                    Landings
-                </Typography>
-                <LandingPages />
-            </ListItem>
-            <ListItem className={classes.listItem}>
-                <Divider className={classes.divider} />
-            </ListItem>
-            <ListItem className={classes.listItem}>
-                <Typography variant="h6" color="textPrimary" gutterBottom>
-                    Pages
-                </Typography>
-                <SupportedPages />
-            </ListItem>
-            <ListItem className={classes.listItem}>
-                <Divider className={classes.divider} />
-            </ListItem>
-            <ListItem className={classes.listItem}>
-                <Typography variant="h6" color="textPrimary" gutterBottom>
-                    Account
-                </Typography>
-                <AccountPages />
-            </ListItem>
-            <ListItem className={classes.listItem}>
-                <Button
-                    variant="outlined"
-                    fullWidth
-                    component="a"
-                    href="/documentation"
-                >
-                    Documentation
-                </Button>
-            </ListItem>
             <ListItem className={classes.listItem}>
                 <Button
                     variant="contained"
-                    color="primary"
+                    color="secondary"
                     fullWidth
                     component="a"
                     target="blank"
                     href="https://material-ui.com/store/items/the-front-landing-page/"
                 >
-                    Buy Now
+                    HIRE ME
                 </Button>
             </ListItem>
         </List>

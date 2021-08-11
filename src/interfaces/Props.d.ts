@@ -124,6 +124,7 @@ interface PagesProps {
       className?: string;
       data?: any;
       themeMode?: string;
+      executeScroll?: MouseEventHandler<HTMLAnchorElement> ;
       // All other props
       [x:string]: any;
     }
