@@ -1,6 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
-import { IconButton, Grid, List, ListItem, Typography } from '@material-ui/core';
+import { IconButton, Grid, List, ListItem } from '@material-ui/core';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import FileCopyIcon from '@material-ui/icons/FileCopy';
 import GitHubIcon from '@material-ui/icons/GitHub';

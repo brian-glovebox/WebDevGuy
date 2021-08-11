@@ -36,7 +36,7 @@ const Hero = ({ className, executeScroll, ...rest }: ViewComponentProps): JSX.El
                         component="p"
                         color="primary"
                     >
-                        Open For Work
+                        Contact Me For Collaboration
                     </Typography>
                 </>
             </Section>
