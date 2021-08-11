@@ -5,8 +5,7 @@ import {
     Hidden,
     List,
     ListItem,
-    IconButton,
-    Typography
+    IconButton
 } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import useStyles from './useStyles';
