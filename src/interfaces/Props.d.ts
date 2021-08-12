@@ -153,6 +153,6 @@ interface PagesProps {
         alternate: {
           main: string;
           dark: string;
-        };
+        }
       }
     }
