@@ -11,7 +11,7 @@ const getTheme = (mode: any) => responsiveFontSizes(
       appBar: 1200,
       drawer: 1100,
     },
-  }),
+  })
 );
 
 export default getTheme;
