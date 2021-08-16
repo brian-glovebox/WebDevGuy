@@ -17,7 +17,7 @@ const portfolioData = [
         cover: TattooArtPic,
         title: 'TATTOO ART',
         subtitle: 'Tattoo Contest Website',
-        href: "https://github.com/hatchways/team-honey-cruller"
+        href: "http://52.53.212.9/"
     },
     {
         cover: MakeOrMiss,
