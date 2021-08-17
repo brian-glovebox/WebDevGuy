@@ -5,7 +5,6 @@ import Section from '../Section/Section';
 import HeroBackground from '../HeroBackground/HeroBackground';
 import { ViewComponentProps } from '../../interfaces/Props';
 import HeroBG from '../../Images/heroBG.svg';
-import { Document } from 'react-pdf';
 
 const Hero = ({ className, executeScroll, ...rest }: ViewComponentProps): JSX.Element => (
     <div className={className} {...rest}>
