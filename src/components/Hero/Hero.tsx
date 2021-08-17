@@ -5,6 +5,7 @@ import Section from '../Section/Section';
 import HeroBackground from '../HeroBackground/HeroBackground';
 import { ViewComponentProps } from '../../interfaces/Props';
 import HeroBG from '../../Images/heroBG.svg';
+import { Document } from 'react-pdf';
 
 const Hero = ({ className, executeScroll, ...rest }: ViewComponentProps): JSX.Element => (
     <div className={className} {...rest}>
@@ -23,10 +24,7 @@ const Hero = ({ className, executeScroll, ...rest }: ViewComponentProps): JSX.El
                         ctaGroup={[
                             <Button href='https://www.github.com/bf2344' color="primary" variant="contained" size="large">
                                 See My Work 
-                            </Button>,
-                            <Button color="secondary" variant="outlined" size="large">
-                                My Resume
-                            </Button>,
+                            </Button>
                         ]}
                         disableGutter
                     />
