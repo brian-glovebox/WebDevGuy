@@ -11,6 +11,7 @@ import StudentProfiles from '../../Images/studentProfiles.jpg';
 import Choose from '../../Images/chooseyourown.jpg';
 import WebDevelopment from '../WebDevelopment/WebDevelopment';
 import ContactPage from '../ContactPage/ContactPage'
+import TimeLine from '../TimeLine/TimeLine';
 
 const portfolioData = [
     {
@@ -58,6 +59,10 @@ const Main = (): JSX.Element => {
             <Divider />
             <Section ref={myRef}>
                 <Portfolio data={portfolioData} />
+            </Section>
+            <Divider />
+            <Section>
+            <TimeLine />
             </Section>
             <Divider />
             <ContactPage />
