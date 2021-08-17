@@ -72,7 +72,7 @@ export default function CustomizedTimeline() {
                             <Typography variant="h6" component="h1">
                                 Web Development Instructor & Tutor
                             </Typography>
-                            <Typography>Oversaw a cohort of 30+ through an intensive 24 week course teaching the MERN Stack. </Typography>
+                            <Typography>Oversaw a cohort of 30+ through an intensive 24 week course teaching the MERN Stack. Over 2000+ hours of Tutoring.</Typography>
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
