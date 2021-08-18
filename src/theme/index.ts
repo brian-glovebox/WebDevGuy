@@ -5,7 +5,7 @@ const getTheme = (mode: any) => responsiveFontSizes(
   createTheme({
     palette: mode === 'light' ? light : dark,
     typography: {
-      fontFamily: 'Lato',
+      fontFamily: 'Rajdhani',
     },
     zIndex: {
       appBar: 1200,
