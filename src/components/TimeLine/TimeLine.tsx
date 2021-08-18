@@ -30,11 +30,12 @@ export default function CustomizedTimeline() {
                 }
                 titleVariant="h4"
                 subtitle="Take a look at some of the programs and Jobs I have done."
+                data-aos="fade-up"
                 disableGutter
             />
             <br />
             <Timeline align="alternate">
-                <TimelineItem>
+                <TimelineItem data-aos="fade-up">
                     <TimelineOppositeContent>
                         <Typography variant="body2" color="textSecondary">
                             February 2019
@@ -55,7 +56,7 @@ export default function CustomizedTimeline() {
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
-                <TimelineItem>
+                <TimelineItem data-aos="fade-up">
                     <TimelineOppositeContent>
                         <Typography variant="body2" color="textSecondary">
                             October 2019 - Current
@@ -76,7 +77,7 @@ export default function CustomizedTimeline() {
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
-                <TimelineItem>
+                <TimelineItem data-aos="fade-up">
                     <TimelineOppositeContent>
                         <Typography variant="body2" color="textSecondary">
                             December 2019
@@ -97,7 +98,7 @@ export default function CustomizedTimeline() {
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
-                <TimelineItem>
+                <TimelineItem data-aos="fade-up">
                     <TimelineOppositeContent>
                         <Typography variant="body2" color="textSecondary">
                             February 2020
@@ -118,7 +119,7 @@ export default function CustomizedTimeline() {
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
-                <TimelineItem>
+                <TimelineItem data-aos="fade-up">
                     <TimelineOppositeContent>
                         <Typography variant="body2" color="textSecondary">
                             October 2020
@@ -139,7 +140,7 @@ export default function CustomizedTimeline() {
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
-                <TimelineItem>
+                <TimelineItem data-aos="fade-up">
                     <TimelineOppositeContent>
                         <Typography variant="body2" color="textSecondary">
                             June 2021
