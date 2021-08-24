@@ -4,8 +4,8 @@ import { IconButton, Grid, List, ListItem } from '@material-ui/core';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import FileCopyIcon from '@material-ui/icons/FileCopy';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import useStyles from './useStyles'
-import { PagesProps } from '../../interfaces/Props'
+import useStyles from './useStyles';
+import { PagesProps } from '../../interfaces/Props';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 interface Props {
