@@ -7,6 +7,7 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import SchoolIcon from '@material-ui/icons/School';
+import LaptopMac from '@material-ui/icons/LaptopMac';
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 import LaptopMacIcon from '@material-ui/icons/LaptopMac';
 import AssignmentTurnedInIcon from '@material-ui/icons/AssignmentTurnedIn';
@@ -147,9 +148,10 @@ export default function CustomizedTimeline() {
                         </Typography>
                     </TimelineOppositeContent>
                     <TimelineSeparator>
-                        <TimelineDot >
+                        <TimelineDot>
                             <CodeIcon />
                         </TimelineDot>
+                        <TimelineConnector className={classes.secondaryTail}/>
                     </TimelineSeparator>
                     <TimelineContent>
                         <Paper elevation={3} className={classes.paper}>
@@ -157,6 +159,26 @@ export default function CustomizedTimeline() {
                                 Hatchways Career Accelerator Program
                             </Typography>
                             <Typography>4-Week Intensive program using the MERN Stack with TypeScript.</Typography>
+                        </Paper>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem data-aos="fade-up">
+                    <TimelineOppositeContent>
+                        <Typography variant="body2" color="textSecondary">
+                            October 2021
+                        </Typography>
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                        <TimelineDot color="primary">
+                            <LaptopMac />
+                        </TimelineDot>
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Paper elevation={3} className={classes.paper}>
+                            <Typography variant="h6" component="h1">
+                                GloveBox
+                            </Typography>
+                            <Typography>Software Developer</Typography>
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>

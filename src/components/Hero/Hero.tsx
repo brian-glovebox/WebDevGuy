@@ -15,7 +15,7 @@ const Hero = ({ className, executeScroll, ...rest }: ViewComponentProps): JSX.El
                         title={
                             <span>
                                 Brian Ford{' '}<br/>
-                                <Typography color="secondary" variant="inherit" component="span">Full-Stack Web Developer</Typography>
+                                <Typography color="secondary" variant="inherit" component="span">Software Developer</Typography>
                             </span>
                         }
                         titleVariant="h3"
